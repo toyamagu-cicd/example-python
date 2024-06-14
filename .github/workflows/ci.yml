@@ -20,7 +20,7 @@ jobs:
         uses: codecov/codecov-action@v4
         with:
           verbose: true
-          url: ${{ var.CODECOV_URL }}
+          url: ${{ vars.CODECOV_URL }}
           fail_ci_if_error: true
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
