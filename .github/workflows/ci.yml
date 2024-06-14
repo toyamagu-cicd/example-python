@@ -20,5 +20,6 @@ jobs:
         uses: codecov/codecov-action@v4
         with:
           verbose: true
+          url: ${{ secrets.CODECOV_URL }}
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
