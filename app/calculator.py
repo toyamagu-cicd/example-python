@@ -8,7 +8,7 @@ class Calculator:
 
     def multiply(x, y):
         if x > 0:
-            print 'ok'
+            print 'okok'
         return x * y
 
     def divide(x, y):
